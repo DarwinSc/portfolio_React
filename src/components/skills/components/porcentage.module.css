@@ -1,0 +1,102 @@
+.skills{
+    color: white;
+    background: #111;
+}
+
+.skills .title::before{
+    background: white;
+}
+
+.skills .title::after{
+    content: "What i know";
+    transform:translate(-60px,35px);
+    background: #111;
+}
+
+.skills .skills-content .column{
+    width: calc(50% - 30px);
+}
+
+.skills .skills-content .left .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.skills .skills-content .left p{
+    text-align: justify;
+
+}
+.skills .skills-content .left a{
+    display: inline-block;
+    background: rgb(218, 2, 56);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(218, 2, 56);
+    transition: all 0.3s ease;
+}
+.skills .skills-content .left a:hover{
+    color:rgb(218, 2, 56);
+    background:none;
+}
+.bars{
+    margin-bottom: 35px;
+}
+.info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* span{
+    font-size: 18px;
+    font-weight: 500;
+} */
+
+.line{
+    height: 5px;
+    width: 100%;
+    background: lightgray;
+    position: relative;
+}
+.line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(218, 2, 56);
+}
+
+.porcentage100::before{
+    width: 100%;
+}
+
+.porcentage90::before{
+    width: 90%;
+}
+
+.porcentage80::before{
+    width: 80%;
+}
+
+.porcentage70::before{
+    width: 70%;
+}
+
+.porcentage60::before{
+    width: 60%;
+}
+
+.porcentage50::before{
+    width: 50%;
+}
+
+.porcentage40::before{
+    width: 40%;
+}

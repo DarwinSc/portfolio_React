@@ -1,0 +1,36 @@
+.card{
+    width: calc(50% - 50px);
+    color: white;
+    background: rgb(48, 48, 48);
+    text-align: center;
+    border-radius: 6px;
+    padding: 40px 45px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.card .box{
+    transition: all 0.3s ease;
+}
+
+.card:hover .box{
+    transform: scale(1.05);
+}
+
+.card:hover{
+    background: rgb(218, 2, 56);
+}
+
+.card i{
+    font-size: 50px;
+    color: rgb(218, 2, 56);
+    transition: color 0.3s ease;
+}
+.card:hover i{
+    color:white;
+}
+.card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
