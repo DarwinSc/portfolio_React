@@ -12,11 +12,11 @@ const homePageContainer = () => {
                     <a href="#home">Portfo<span>lio.</span></a>
                 </div>
                     <ul class="menu">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#jobs">Jobs</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#about">Sobre mi</a></li>
+                        <li><a href="#skills">Habilidades</a></li>
+                        <li><a href="#jobs">Trabajos</a></li>
+                        <li><a href="#contact">Contacto</a></li>
                     </ul>
                     <div class="menu-btn">
                         <i class="fa fa-bars"></i>
@@ -28,30 +28,32 @@ const homePageContainer = () => {
             <div class="max-width">
                 <div class="home-content">
                     <div class="text-1">
-                        Hello, my name is
+                        Hola, mi nombre es
                     </div>
                     <div class="text-2">
                         Darwin Sierra
                     </div>
                     <div class="text-3">
-                        And I'm a <span>Developer FrontEnd</span>
+                    Y soy un <span>Developer Frontend</span>
                     </div>
-                    <a href="#">Hire me</a>
                 </div>
             </div>
         </section>
         
         <section class="about" id="about">
             <div class="max-width">
-                <h2 class="title">About me</h2>
+                <h2 class="title">Sobre mi</h2>
                 <div class="about-content">
                     <div class="column left">
-                        <img src={`${process.env.PUBLIC_URL}/assets/images/me.jpg`}/>
+                        <img src={`${process.env.PUBLIC_URL}/assets/images/me1.jpeg`}/>
                     </div>
                     <div class="column right">
-                        <div class="text">I'm Darwin and i'm a <span>Dev. FontEnd</span></div>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore corporis asperiores error dignissimos ratione consectetur laboriosam voluptate ipsam debitis eveniet rem nihil distinctio doloremque dolorum, iste, aliquid magnam illum repellat minima aliquam eum esse natus. Commodi expedita, ab esse minus deserunt dolorem eos voluptas quasi maiores. Ut itaque magni ipsa.</p>
-                        <a href="#">Download CV</a>
+                        <div class="text">Soy Darwin y soy un <span>Dev. FontEnd</span></div>
+                        <p>Soy una persona autodidacta, Graduado T.S.U en Informática, aun estoy muy interesado en aprender nuevas tecnologías como nuevos lenguajes de programación, patrones de diseño, networking, entre otros.
+
+                        Actualmente trabajo como Desarrollador Frontend freelancer, y estoy buscando una oportunidad en un nuevo
+                        ambiente laboral estable.</p>
+                        {/* <a href="#">Download CV</a> */}
                     </div>
                 </div>
             </div>
@@ -66,7 +68,7 @@ const homePageContainer = () => {
         
         <section class="contact" id="contact">
             <div class="max-width">
-                <h2 class="title">Contact me</h2>
+                <h2 class="title">Contactame</h2>
             <div class="contact-content">
                 <div class="column left">
                     <div class="icons">

@@ -7,7 +7,7 @@ const card = (props) => {
             <div className={styles.box}>
               <i className={`fa fa-${props.icon}`}></i>
                 <div className={styles.text}>{props.title}</div>
-                  <p>{props.text}</p>
+                  <p>{props.text}</p> 
             </div>
           </div>
         </>

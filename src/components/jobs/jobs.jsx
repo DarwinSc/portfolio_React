@@ -4,19 +4,19 @@ const jobs = () => {
       <>
         <section class="jobs" id="jobs">
           <div class="max-width">
-            <h2 class="title">My jobs</h2>
+            <h2 class="title">Mis Trabajos</h2>
               <div class="jobs-content">
 
                     <CardComponent 
                     icon="truck"
                     title="Via-Cargo"
-                    text="sdfgvujergore3"
+                    text="Cotizador"
                     />
 
                     <CardComponent
                       icon="car"
                     title="Carok"
-                    text="sdfgvujergore3"
+                    text="Componentes"
                     />
 
 

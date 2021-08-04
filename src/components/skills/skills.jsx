@@ -4,12 +4,13 @@ const skills = () => {
         <>
             <section class="skills" id="skills">
             <div class="max-width">
-                <h2 class="title"> My Sklils </h2>
+                <h2 class="title"> Mis Habilidades </h2>
                 <div class="skills-content">
                     <div class="column left">
-                        <div class="text"> My creative skills & experiences.</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quo nostrum, sequi nesciunt facere distinctio earum eaque architecto laboriosam ipsam. Optio id nostrum nihil iure est ex amet quidem, facilis ratione, eveniet quos vero? Unde eveniet sit vero iusto quisquam repellat illum nisi eum aliquam? Temporibus quia qui nulla ullam.</p>
-                        <a href="#">Read more</a>
+                        <div class="text"> Mis habilidades y experiencias.</div>
+                        <p>
+                        </p>
+                    
                     </div>
                     <div class="column right">
 
