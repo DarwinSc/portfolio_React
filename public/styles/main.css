@@ -89,7 +89,7 @@ html{
     display: inline-block;
 }
 .navbar .menu li a{
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -107,16 +107,13 @@ html{
 
 
 
-
-
-
 /* home section styling */
 
 .home{
     display: flex;
-    background: url('../assets/images/img1.png');
+    background: url('../assets/images/f1.jpg');
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 1200px;
     color: white;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
@@ -244,7 +241,7 @@ section .title::after{
 }
 
 .about .title::after{
-    content: "Who i am";
+    content: "who I am";
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -270,7 +267,7 @@ section .title::after{
 
 .about .about-content .left img{
     height: 400px;
-    width: 400px;
+    width: 470px;
     object-fit: cover;
     border-radius: 20px;
 }
@@ -552,21 +549,37 @@ footer span a:hover{
 
 
 
-@media (max-width: 1300px){
+@media (max-width: 1940px){
     .home .max-width{
         margin-left: 0px;
     }
+    .home{
+        display: flex;
+        background: url('../assets/images/f2.jpg');
+        background-repeat: no-repeat;
+    }
 }
 
-@media (max-width: 1104px){
+@media (max-width: 1600px){
     .about .about-content .left img{
         height: 350px;
         width: 350px;
     }
+    .home{
+        display: flex;
+        background: url('../assets/images/f3.jpg');
+        background-repeat: no-repeat;
+    }
 }
-@media (max-width: 947px){
-    
+@media (max-width: 1300px){
+    .home{
+        display: flex;
+        background: url('../assets/images/f4.jpg');
+        background-repeat: no-repeat;
+    }
 }
+
+
 @media (max-width: 991px){
     .max-width{
         padding: 0 50px;
